@@ -1,0 +1,24 @@
+:root{
+    --main-color: black;
+    --color: white;
+}
+
+#hero{
+background-image: url(https://avatars.mds.yandex.net/i?id=4852c1f3159754d29537c7fef94f154d-5234655-images-thumbs&n=13);
+background-repeat: no-repeat;
+width: 1350px;
+height: 850px;
+background-size: cover;
+}
+
+
+.hero-title{
+text-shadow: 1px 1px 10px var(--color);
+color: var(--color);
+left: 50px;
+font-size: 48px;
+line-height: 150%;
+padding-top: 425px;
+padding-bottom: 425px;
+padding-left: 50px;
+}

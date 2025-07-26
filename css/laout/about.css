@@ -1,0 +1,38 @@
+:root{
+    --main-color: black;
+    --color: white;
+}
+
+.about-content{
+margin-top: 100px;
+}
+
+.about-title{
+padding-left: 50px;
+font-size: 30px;
+
+}
+
+.about-desc{
+padding-bottom: 30px;
+padding-left: 50px;
+font-size: 16px;
+margin-top: 30px;
+}
+
+.about-card{
+display: flex;
+gap: 100px;
+margin-top: 50px;
+}
+
+.about-list li{
+margin-top: 40px;
+font-size: 20px;
+
+
+}
+
+.about-list{
+align-items: center;
+}

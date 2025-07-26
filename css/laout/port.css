@@ -1,0 +1,52 @@
+.port-content{
+display: flex;
+width: 1500px;
+gap: 50px;
+background-color: rgba(118, 255, 209, 0.459);
+margin-top: 100px;
+flex-wrap: wrap;
+}
+
+.port-title{
+padding-left: 50px;
+margin-bottom: 50px;
+}
+
+.port-card{
+width: 700px;
+overflow: hidden;
+position: relative;
+}
+
+.port-go{
+position: absolute;
+top: -300px;
+width: 700px;
+height: 300px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.le-go{
+width: 50px;
+border: none;
+mix-blend-mode: multiply;
+background-color: rgba(126, 126, 126, 0.719);
+}
+
+.works-photo{
+width: 700px;
+height: 300px;
+}
+
+.port-card:hover{
+
+    .port-go{
+        background-color: rgba(126, 126, 126, 0.719);
+        transform: translateY(300px);
+        transition: 1s ease;
+
+    }
+
+}
